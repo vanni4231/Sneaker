@@ -1,4 +1,4 @@
-package com.codingstuff.shoeapp.dao;
+package com.project.SneakerShip.dao;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,7 +6,7 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 
-import com.codingstuff.shoeapp.utils.model.ShoeCart;
+import com.project.SneakerShip.utils.model.ShoeCart;
 
 import java.util.List;
 

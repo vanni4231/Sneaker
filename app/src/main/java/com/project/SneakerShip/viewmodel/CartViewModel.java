@@ -1,12 +1,12 @@
-package com.codingstuff.shoeapp.viewmodel;
+package com.project.SneakerShip.viewmodel;
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.codingstuff.shoeapp.repository.CartRepo;
-import com.codingstuff.shoeapp.utils.model.ShoeCart;
+import com.project.SneakerShip.repository.CartRepo;
+import com.project.SneakerShip.utils.model.ShoeCart;
 
 import java.util.List;
 

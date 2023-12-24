@@ -1,4 +1,4 @@
-package com.codingstuff.shoeapp.views;
+package com.project.SneakerShip.views;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +15,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.codingstuff.shoeapp.R;
-import com.codingstuff.shoeapp.utils.adapter.CartAdapter;
-import com.codingstuff.shoeapp.utils.model.ShoeCart;
-import com.codingstuff.shoeapp.viewmodel.CartViewModel;
+import com.project.SneakerShip.R;
+import com.project.SneakerShip.utils.adapter.CartAdapter;
+import com.project.SneakerShip.utils.model.ShoeCart;
+import com.project.SneakerShip.viewmodel.CartViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.List;

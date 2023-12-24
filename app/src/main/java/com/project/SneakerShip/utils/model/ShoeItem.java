@@ -1,4 +1,4 @@
-package com.codingstuff.shoeapp.utils.model;
+package com.project.SneakerShip.utils.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

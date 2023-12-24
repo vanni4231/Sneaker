@@ -1,4 +1,4 @@
-package com.codingstuff.shoeapp.utils.adapter;
+package com.project.SneakerShip.utils.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.codingstuff.shoeapp.R;
-import com.codingstuff.shoeapp.utils.model.ShoeCart;
+import com.project.SneakerShip.R;
+import com.project.SneakerShip.utils.model.ShoeCart;
 
 import java.util.List;
 

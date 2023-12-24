@@ -1,4 +1,4 @@
-package com.codingstuff.shoeapp.views;
+package com.project.SneakerShip.views;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,10 +13,10 @@ import androidx.appcompat.widget.AppCompatButton;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.codingstuff.shoeapp.R;
-import com.codingstuff.shoeapp.utils.model.ShoeCart;
-import com.codingstuff.shoeapp.utils.model.ShoeItem;
-import com.codingstuff.shoeapp.viewmodel.CartViewModel;
+import com.project.SneakerShip.R;
+import com.project.SneakerShip.utils.model.ShoeCart;
+import com.project.SneakerShip.utils.model.ShoeItem;
+import com.project.SneakerShip.viewmodel.CartViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;

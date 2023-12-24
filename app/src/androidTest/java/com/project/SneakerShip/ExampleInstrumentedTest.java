@@ -1,4 +1,4 @@
-package com.codingstuff.shoeapp;
+package com.project.SneakerShip;
 
 import android.content.Context;
 

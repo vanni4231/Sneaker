@@ -1,4 +1,4 @@
-package com.codingstuff.shoeapp.utils.model;
+package com.project.SneakerShip.utils.model;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

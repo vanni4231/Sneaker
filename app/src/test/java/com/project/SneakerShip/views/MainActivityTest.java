@@ -1,14 +1,14 @@
-package com.codingstuff.shoeapp.views;
+package com.project.SneakerShip.views;
 
 import android.content.Intent;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-import com.codingstuff.shoeapp.R;
-import com.codingstuff.shoeapp.utils.adapter.ShoeItemAdapter;
-import com.codingstuff.shoeapp.utils.model.ShoeCart;
-import com.codingstuff.shoeapp.utils.model.ShoeItem;
-import com.codingstuff.shoeapp.viewmodel.CartViewModel;
+import com.project.SneakerShip.R;
+import com.project.SneakerShip.utils.adapter.ShoeItemAdapter;
+import com.project.SneakerShip.utils.model.ShoeCart;
+import com.project.SneakerShip.utils.model.ShoeItem;
+import com.project.SneakerShip.viewmodel.CartViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.snackbar.Snackbar;
 

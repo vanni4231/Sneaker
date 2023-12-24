@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codingstuff.shoeapp">
+    package="com.project.SneakerShip">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShoeApp">
         <activity
-            android:name=".views.CartActivity"
+            android:name="com.project.SneakerShip.views.CartActivity"
             android:exported="false" />
         <activity
-            android:name=".views.DetailedActivity"
+            android:name="com.project.SneakerShip.views.DetailedActivity"
             android:exported="false" />
         <activity
-            android:name=".views.MainActivity"
+            android:name="com.project.SneakerShip.views.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
