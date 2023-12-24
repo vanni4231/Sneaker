@@ -56,4 +56,4 @@ To handle async task Handlers is used.
 
 
 ## Screenshots
-[![Screen-Shot1.jpg](https://i.postimg.cc/hPHjF5P1/Screen-Shot1.jpg)](https://postimg.cc/JG5mZKXs)
+[![Screen-Shot1.jpg](https://i.postimg.cc/hPHjF5P1/Screen-Shot1.jpg)](https://postimg.cc/JG5mZKXs) [![Screen-Shot2.jpg](https://i.postimg.cc/Hkw76g4y/Screen-Shot2.jpg)](https://postimg.cc/Wd434xyN) [![Screen-Shot3.jpg](https://i.postimg.cc/28qtbHdJ/Screen-Shot3.jpg)](https://postimg.cc/MvS5gmFb)
