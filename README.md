@@ -47,6 +47,7 @@ To handle all the data in the cart I have used roomdatabase.
 UI Development:
 
 To ensure appealing User Interface I have used Material guidelines to develop UI.
+I have added Recyclerview to bring top 100 sneakers on UI and cardview to show each shoes.
 
 Async Task handling:
 
