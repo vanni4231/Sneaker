@@ -5,13 +5,10 @@ import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.codingstuff.shoeapp.R;
-import com.codingstuff.shoeapp.views.CartActivity;
-import com.codingstuff.shoeapp.views.DetailedActivity;
 import com.codingstuff.shoeapp.utils.adapter.ShoeItemAdapter;
 import com.codingstuff.shoeapp.utils.model.ShoeCart;
 import com.codingstuff.shoeapp.utils.model.ShoeItem;
 import com.codingstuff.shoeapp.viewmodel.CartViewModel;
-import com.codingstuff.shoeapp.views.MainActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.snackbar.Snackbar;
 

@@ -1,16 +1,13 @@
 package com.codingstuff.shoeapp.views;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -18,7 +15,6 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.codingstuff.shoeapp.R;
 import com.codingstuff.shoeapp.utils.adapter.ShoeItemAdapter;
 import com.codingstuff.shoeapp.utils.model.ShoeCart;
@@ -26,7 +22,6 @@ import com.codingstuff.shoeapp.utils.model.ShoeItem;
 import com.codingstuff.shoeapp.viewmodel.CartViewModel;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.snackbar.Snackbar;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -49,15 +44,33 @@ public class MainActivity extends AppCompatActivity implements ShoeItemAdapter.S
         searchView = findViewById(R.id.search_view);
         textView = findViewById(R.id.textView);
         searchView.clearFocus();
+        searchView = findViewById(R.id.search_view);
+        textView = findViewById(R.id.textView);
+        // ...
+
+        searchView.setOnSearchClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textView.setVisibility(View.GONE);
+            }
+        });
+
+        searchView.setOnCloseListener(new SearchView.OnCloseListener() {
+            @Override
+            public boolean onClose() {
+                textView.setVisibility(View.VISIBLE);
+                return false;
+            }
+        });
+
+
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
                 return false;
             }
-
             @Override
             public boolean onQueryTextChange(String newText) {
-                textView.setVisibility(newText.isEmpty() ? View.VISIBLE : View.GONE);
                 filterList(newText);
                 return true;
             }
